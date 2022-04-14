@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="hellocucumber.RunCucumberTest" time="0.149" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="hellocucumber.RunCucumberTest" time="0.198" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
@@ -65,6 +65,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Is it Friday yet?" name="Sunday isn&apos;t Friday" time="0.149"/>
-  <testcase classname="Is it Friday yet?" name="Friday is Friday" time="0"/>
+  <testcase classname="Is it Friday yet?" name="Today is or is not Friday" time="0.196"/>
+  <testcase classname="Is it Friday yet?" name="Today is or is not Friday" time="0.001"/>
+  <testcase classname="Is it Friday yet?" name="Today is or is not Friday" time="0.001"/>
 </testsuite>
